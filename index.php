@@ -22,10 +22,11 @@ switch($uri_parse)
         pokeController::delete();
     break;
 
-    default:
-        header("Location: /pokemon");
-    break;
-
+    /*
+        default:
+        header("Location: /");
+        break;
+    */
     
     
     
